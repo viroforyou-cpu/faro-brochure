@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FARO — Tu caso, ordenado y defendible</title>
+<meta name="description" content="FARO ordena la historia de tu caso con cronología verificada, detección de contradicciones y preparación para tu abogado. Explicado simple, para víctimas y familias.">
+<link rel="stylesheet" href="faro.css">
+</head>
+<body class="beam-wrap">
+<nav class="wrap">
+  <div class="logo">FA<span>RO</span></div>
+  <div class="spacer"></div>
+  <span class="hint">La luz que ordena tu caso</span>
+</nav>
+
+<header class="hero wrap">
+  <h1>Tu caso, <em>ordenado</em> y defendible.</h1>
+  <p class="lead">¿Te denunciaron falsamente? ¿La institución que debía protegerte te falló? FARO escucha tu historia, la ordena fecha por fecha, encuentra las contradicciones y prepara el material para tu abogado. Simple, humano y sin tecnicismos.</p>
+  <div class="cta-row">
+    <a class="btn" href="#como">Quiero entender cómo funciona</a>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="proof">
+    <div class="cell"><div class="num">4</div><div class="lbl">pasos: del relato al material defendible</div></div>
+    <div class="cell"><div class="num">24</div><div class="lbl">jurisdicciones argentinas cubiertas</div></div>
+    <div class="cell"><div class="num">74</div><div class="lbl">preguntas para no dejar nada suelto</div></div>
+    <div class="cell"><div class="num">0</div><div class="lbl">costo para empezar a contarte</div></div>
+  </div>
+</div>
+
+<section id="como" class="wrap">
+  <h2>Cómo funciona — explicado simple</h2>
+  <p class="sub">Sin trámites, sin oficinas, sin lenguaje de abogados. Vos contás; el sistema ordena.</p>
+  <div class="steps">
+    <div class="step"><h3>1. Contás tu historia</h3><p>A tu manera, con tus palabras, en un recorrido guiado paso a paso. También desde tu teléfono.</p></div>
+    <div class="step"><h3>2. Te hacen las preguntas justas</h3><p>Un entrevistador virtual pregunta lo que falta, sin juzgarte, hasta que no queden huecos en el relato.</p></div>
+    <div class="step"><h3>3. Todo queda ordenado</h3><p>Cada hecho en su fecha. Si algo se contradice — una declaración, una fecha, un documento — queda señalado.</p></div>
+    <div class="step"><h3>4. Tu abogado recibe el caso listo</h3><p>Cronología, contradicciones y material preparado. El abogado decide la estrategia; FARO le entrega el terreno despejado.</p></div>
+  </div>
+</section>
+
+<section class="wrap">
+  <h2>Qué FARO NO hace</h2>
+  <p class="sub">Preferís la verdad por adelantado:</p>
+  <div class="cards">
+    <div class="card">
+      <h3>Los límites honestos</h3>
+      <ul>
+        <li>No reemplaza a tu abogado — lo potencia</li>
+        <li>No decide si decís la verdad — ordena hechos</li>
+        <li>No promete resultados — prepara el camino</li>
+        <li>Tus datos quedan bajo custodia de la organización, nunca se venden</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Para quién es</h3>
+      <ul>
+        <li>Víctimas de falsas denuncias</li>
+        <li>Familias frente a violencia institucional</li>
+        <li>Abogados que quieren el caso ordenado desde el día uno</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="seguir" class="wrap">
+  <h2>Cómo seguir</h2>
+  <p class="sub">Este folleto explica. El paso real se da en persona.</p>
+  <div class="card" style="max-width:640px">
+    <h3>Reuniones informativas todos los viernes</h3>
+    <ul>
+      <li>Acercate, preguntá lo que quieras, sin compromiso</li>
+      <li>Si seguís, recibís tu <strong>enlace personal</strong> para contar tu caso con total privacidad</li>
+      <li>Las víctimas sin ingresos tienen <strong>beca solidaria</strong></li>
+    </ul>
+    <p class="hint" style="margin-top:14px" id="contacto">Contacto directo: coordiná en la reunión de los viernes.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p><span class="risk">FARO no reemplaza al abogado ni evalúa credibilidad.</span> Identifica patrones, ordena información y prepara material para el análisis legal.</p>
+    <p style="margin-top:8px">FARO · FARO es una iniciativa de asistencia a víctimas. Este folleto es informativo.</p>
+  </div>
+</footer>
+
+<button class="scroll-tag" id="scrollTag" title="Volver arriba" aria-label="Volver arriba">▲</button>
+<script>
+(function(){
+  var b = document.getElementById('scrollTag');
+  function chk(){ b.classList.toggle('show', window.scrollY > 400); }
+  window.addEventListener('scroll', chk, { passive: true });
+  b.addEventListener('click', function(){ window.scrollTo({ top: 0, behavior: 'smooth' }); });
+  chk();
+})();
+</script>
+</body>
+</html>
